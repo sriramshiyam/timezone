@@ -33,7 +33,7 @@ app.get("/timezone", (req, res) => {
 });
 
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "./pages/404.html"));
+  res.sendFile(path.join(__dirname, "./pages/vendam.jpg"));
 });
 
 app.listen(PORT, () => console.log("server started"));
